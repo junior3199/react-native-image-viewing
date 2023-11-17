@@ -94,6 +94,7 @@ function ImageViewing({
 
   return (
     <Modal
+      statusBarTranslucent
       transparent={presentationStyle === "overFullScreen"}
       visible={visible}
       presentationStyle={presentationStyle}
